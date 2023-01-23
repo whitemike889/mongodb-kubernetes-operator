@@ -4,20 +4,19 @@ go 1.16
 
 require (
 	github.com/blang/semver v3.5.1+incompatible
-	github.com/go-logr/logr v0.4.0
+	github.com/go-logr/logr v1.2.3
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/imdario/mergo v0.3.12
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/cast v1.4.1
-	github.com/stretchr/objx v0.3.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/objx v0.4.0
+	github.com/stretchr/testify v1.8.0
 	github.com/xdg/stringprep v1.0.3
 	go.mongodb.org/mongo-driver v1.7.4
 	go.uber.org/zap v1.19.1
-	golang.org/x/net v0.0.0-20210614182718-04defd469f4e // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	k8s.io/api v0.22.4
-	k8s.io/apimachinery v0.22.4
+	k8s.io/apimachinery v0.26.1
 	k8s.io/client-go v0.22.4
 	sigs.k8s.io/controller-runtime v0.10.3
 	sigs.k8s.io/yaml v1.3.0
